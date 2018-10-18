@@ -1,0 +1,118 @@
+
+.products_catalog-title{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 68px;
+    padding-bottom: 50px;
+    z-index: 1;
+}
+.products_catalog-content{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+.smart-object-stripes {
+    background: url(../../images/gray-stripes.png) 0 130% no-repeat;
+    overflow: visible;
+    height: 100%;
+}
+.products_catalog-tea {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.products_catalog-tea-title {
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.products_catalog-tea-title-tea-image {
+    position: relative;
+    padding: 40% 50%;
+}
+.products_catalog-tea-title-range-image {
+    position: relative;
+    padding: 2% 50%;
+}
+.products_catalog-tea-title-cups-image {
+    position: relative;
+}
+.products_catalog-tea-title-gifts-image {
+    position: relative;
+    padding: 20% 50%;
+}
+.products_catalog-tea-button {
+    padding: 15px 0;
+    z-index: 1;
+}
+.products_catalog-range {
+    display: flex;
+    flex-flow: row wrap;
+    width: 60%;
+}
+.products_catalog-range-offers {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.products_catalog-range-cups {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.products_catalog-range-gifts {
+    display: flex;
+    flex-direction: column;
+}
+.__products_catalog-redLine{
+    width: 50px;
+    height: 5px;
+}
+.products_catalog-tea-title-text {
+    font-family: "Montserrat-Light";
+    font-size: 24px; 
+}
+
+/* button */
+.details {
+    background-color: #fff;
+    text-decoration: none;
+    border: 1px solid #e8472c;
+    justify-content: space-around;
+    padding: 10px 30px;
+    color: #e8472c;
+    transition: all 1s;
+}
+.details:hover {
+    color: white;
+    background: #e8472c;
+}
+
+.catalog__card-wrapper {
+    display: flex;
+    z-index: 1;
+}
+.catalog__card-wrapper--cups {
+    width: 55%;
+}
+.catalog__card-wrapper--gifts {
+    width: 45%;
+}
+.catalog__card-wrapper--tea {
+    width: 40%;
+}
+.catalog__card {
+    border: 1px solid #e8e8e8;
+    box-shadow: 11px 11px 16px rgba(0, 0, 0, .11);
+    background-color: #fff;
+}
+.animated-background {
+    position: absolute;
+    background-color: #f4f4f4;
+    right: 0;
+    height: 100%;
+    width: 0;
+    top: 0;
+    transition: top .3s ease-in-out;
+}

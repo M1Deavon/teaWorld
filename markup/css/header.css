@@ -1,0 +1,178 @@
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.logo {
+    display: inline-block;
+}
+.shop {
+    font-family: "Montserrat-Regular";
+}
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.social {
+    padding-top: 20px;
+    display: flex;
+}
+.icon {
+    margin-right: 15px;
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.ico_insta {
+    background-image: url(../images/svg/002-instagram.png);
+}
+.ico_insta:hover {
+    background-image: url(../images/svg/002-instagram-red.png);
+}
+.ico_face {
+    background-image: url(../images/svg/003-facebook.png);
+}
+.ico_face:hover {
+    background-image: url(../images/svg/003-facebook-red.png);
+}
+.ico_skype {
+    background-image: url(../images/svg/004-skype.png);
+}
+.ico_skype:hover {
+    background-image: url(../images/svg/004-skype-red.png);
+}
+.feed-back_container {
+    display: flex;
+    justify-content: inherit;
+    align-items: center;
+}
+.feed-back_form {
+    display: inline-block;
+}
+form {
+    position: relative;
+    width: 232px;
+}
+/* .input[type="search"] {
+    font-family: "Montserrat-Bold";
+} */
+  input, button {
+    outline: none;
+    background: transparent;
+}
+  input {
+    border: 1px solid #b8b4b3;
+    padding: 10px 15px;
+}
+  button {
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+  button:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #b8b4b3;
+}
+.__textBold {
+    font-family: "Montserrat-Bold";
+}
+.basket {
+    text-decoration: none;
+    display: flex;
+    border: 1px solid #e8472c;
+    padding: 10px 15px;
+}
+.basket p {
+    color: #e8472c;
+    transition: all 1s;
+}
+.basket_png {
+    background-image: url(../images/svg/002-empty-shopping-cart-red.png);
+    background-size: contain;
+    width: 20px;
+    background-repeat: no-repeat;
+    color: #e8472c;
+    transition: all 1s;
+    margin-right: 15px;
+}
+.basket:hover .basket_png {
+    background: url(../images/svg/002-empty-shopping-cart-white.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all 1s;
+}
+.basket:hover p {
+    color: white;
+}
+.basket:hover {
+    background: #e8472c;
+}
+.call-form {
+    text-decoration: none;
+    display: flex;
+    border: 1px solid #4dba19;
+    padding: 10px 15px;
+    margin-left: 13px;
+}
+.call-form p {
+    color: #4dba19;
+    transition: all 1s;
+}
+.call-form .call-form_png {
+    display: flex;
+    background: url(../images/svg/001-call-answer-green.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all 1s;
+    width: 20px;
+    height: 18px;
+    margin-right: 15px;
+}
+.call-form:hover .call-form_png {
+    background: url(../images/svg/001-call-answer-white.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.call-form:hover p {
+    color: white;
+}
+.call-form:hover {
+    background: #4dba19;
+}
+            /* navigation */
+nav {
+    background: #e8472c;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    font-size: 16px;
+    
+}
+.nav-list-item {
+    display: flex;
+    align-items: stretch;
+}
+.nav-list-item-link {
+    font-family: "Montserrat-SemiBold";
+    display: flex;
+    align-items: center; 
+    line-height: 1;
+    padding: 24px 15px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.nav-list-item-link:hover { 
+    background-color: #ff836e;
+}

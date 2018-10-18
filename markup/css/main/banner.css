@@ -1,0 +1,64 @@
+.banner {
+    background: transparent url(../../images/kettle.png) 100% 30% no-repeat;
+    margin: 30px 0;
+}
+.banner--slogan{
+    margin: 0;
+}
+.banner--slogan__offset-bottom{
+    margin-bottom: 30px;
+}
+.banner--slogan__offset-top {
+    margin-top: 30px;
+}
+
+/* vertical-zebra */
+.smart-object-gray {
+    background: url(../../images/smart-object-gray.png) -50px 50% no-repeat;
+    overflow: visible;
+    padding: 68px;
+}
+.main-content {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+    line-height: 1;
+}
+
+/* green-butons */
+.green-buttons {
+    margin-top: 96px;
+}
+.ring-button {
+    margin: 5px;
+    background-color: #fff;
+    display: inline-block;
+    border: 1px solid #47b711;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transition-property: border, background-color;
+    vertical-align: middle;
+    transition-duration: 0.3s;
+}
+.ring-button:hover  {
+    background-color: #47b711;
+    border: 1px solid white;
+}
+.ring-button--small {
+    width: 41px;
+    height: 41px;
+}
+.ring-button--prev {
+    background: #fff url("../../images/svg/slider-arrow-prev.png") 50% 100% no-repeat;
+    background-size: 100%;
+}
+.ring-button--next {
+    background: #fff url("../../images/svg/slider-arrow-next.png") 50% 100% no-repeat;
+    background-size: 100%;
+}
+.ring-button--prev:hover,
+.ring-button--next:hover {
+    background-position: 50% 0;
+}

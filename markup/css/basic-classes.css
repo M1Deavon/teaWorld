@@ -1,0 +1,32 @@
+.__gutter {
+    padding: 15px;
+}
+.__inline-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.__text-upper {
+    text-transform: uppercase;
+}
+.__like-block {
+    display: block;
+}
+.__extraBold-max {
+    font-family: "Montserrat-ExtraBold";
+    font-size: 60px;
+}
+.__extraBold-semi {
+    font-family: "Montserrat-ExtraBold";
+    font-size: 36px;
+}
+.__semiBold {
+    font-family: "Montserrat-SemiBold";
+    font-size: 30px;
+}
+.__full-width {
+    width: 100%;
+}
+.__position-abs {
+    position: absolute;
+}

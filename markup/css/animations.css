@@ -1,0 +1,60 @@
+/* background-pulse-animation */
+.pulse {
+    z-index: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -40vh;
+    margin-left: -40vh;
+    display: block;
+    width: 80vh;
+    height: 80vh;
+    border-radius: 50%;
+    pointer-events: none;
+    animation: pulse 2s infinite alternate;
+    border: 1px dashed rgba(198, 198, 198, 0.5);
+    box-shadow: 0 0 0 0 rgba(198, 198, 198, 0.09);
+    animation: pulse 2s infinite;
+}
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(198, 198, 198, 0.09);        
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 57px rgba(198, 198, 198, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(198, 198, 198, 0); 
+    }
+}
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(198, 198, 198, 0.09);        
+    }
+    70% {
+        box-shadow: 0 0 0 57px rgba(198, 198, 198, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(198, 198, 198, 0); 
+    }
+}
+.pulse--medium {
+    margin-left: -20vh;
+    margin-top: -20vh;
+    height: 40vh;
+    width: 40vh;
+}
+
+/* text-rise-animation */
+.rise-text {
+    position: relative;
+    animation: rise 1.5s cubic-bezier(0, 0.25, 0.55, 1) 1;
+}
+@-webkit-keyframes rise {
+    0% {transform: translateY(1000%);}
+    100% {transform: translateY(0);}
+}
+@keyframes rise {
+    0% {transform: translateY(1000%);}
+    100% {transform: translateY(0);}
+}

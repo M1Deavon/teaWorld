@@ -1,0 +1,109 @@
+.newProducts {
+    margin-top: 100px;
+}
+.newProducts-content {
+    width: 100%;
+    z-index: 1;
+}
+.newProducts-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 68px;
+    padding-bottom: 50px;
+    z-index: 1;
+}
+.left-elements {
+    display: flex;
+    align-items: center;
+}
+.newProducts__card-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.newProducts__card-wrapper--block {
+    display: flex;
+    flex-flow: column nowrap;
+    border: 1px solid #e8e8e8;
+    box-shadow: 11px 11px 16px rgba(0, 0, 0, .11);
+    flex: 1;
+    margin-left: 15px;
+}
+.newProducts__card-wrapper--block:first-child {
+    margin-left: 0;
+}
+.newProducts__card-wrapper--element {
+    display: flex;
+    flex: 1;
+    flex-flow: column nowrap;
+}
+.catalog__card--newProduct {
+    background-color: #fff;
+}
+.priceBasket {
+    display: flex;
+    flex-flow: column nowrap;
+    border-top: 1px solid #e8e8e8;
+    background-color: #fff;
+}
+.priceWeight-block {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    padding: 0 0 15px;
+}
+.basket-green {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #47b711;
+    padding: 10px 30px;
+}
+.basket-green p {
+    color: #47b711;
+    transition: all 1s;
+}
+.basket-green:hover p {
+    color: white;
+}
+.basket-green:hover {
+    background: #47b711;
+}
+.checked-block {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.checked-block_check {
+    background-color: #fff;
+    display: inline-block;
+    border: 1.5px solid #47b711;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    vertical-align: middle;
+    transition: all 0.5s;
+}
+.checked-img {
+    width: 15px;
+    height: 11px;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.checked-block_number {
+    font-family: "Montserrat-Regular";
+}
+.image-product-name {
+    padding: 15px 0 0;
+    font-size: 16px;
+}
+.price-text {
+    font-family: "Montserrat-ExtraBold";
+    font-size: 24px;
+}
+.weight-text {
+    font-family: "Montserrat-Regular";
+    font-size: 16px;
+    padding-left: 10px;
+}

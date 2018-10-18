@@ -1,0 +1,40 @@
+/* Red collapsible line */
+.red-line {
+    width: 100px;
+    height: 7px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0;
+    font-size: 0;
+}
+.red-line::before {
+    content: "";
+    width: 55%;
+    display: inline-block;
+    margin-right: 5%;
+    background-color: #e8472c;
+    border-radius: 100px;
+    height: 100%;
+    transition: all .3s ease-in-out;
+}
+.red-line::after {
+    content: "";
+    width: 35%;
+    display: inline-block;
+    margin-left: 5%;
+    background-color: #e8472c;
+    border-radius: 100px;
+    height: 100%;
+    transition: all .3s ease-in-out;
+}
+.__collapse-line:hover .red-line::before {
+    width: 65%;
+    margin-right: -5%;
+}
+.__collapse-line:hover .red-line::after {
+    margin-left: -5%;
+    width: 45%;
+}
+.__rotate-red-line {
+    transform: rotate(180deg);
+}
