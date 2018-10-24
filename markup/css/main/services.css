@@ -3,6 +3,7 @@
     display: flex;
     margin-top: 150px;
     justify-content: space-around;
+    overflow: hidden;
 }
 .services-img {
     width: 100%;
@@ -20,26 +21,50 @@
     color: #fff;
     text-align: center;
     transform: scale(0);
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
 }
 .services_feature-first {
-    transform: scale(1);
-    transition: all 300ms ease-in-out 0;
+    opacity: 1;
+    animation: zoom-in .3s ease-in-out .5s 1 both;
 }
 .services_feature-second {
-    transform: scale(1);
-    transition: all 300ms ease-in-out 1300ms;
+    opacity: 1;
+    animation: zoom-in .3s ease-in-out 1s 1 both;
 }
 .services_feature-third {
-    transform: scale(1);
-    transition: all 300ms ease-in-out 2600ms;
+    opacity: 1;
+    animation: zoom-in .3s ease-in-out 1.5s 1 both;
 }
 .services_feature-fourth {
-    transform: scale(1);
-    transition: all 300ms ease-in-out 3900ms;
+    opacity: 1;
+    animation: zoom-in .3s ease-in-out 2s 1 both;
 }
 .services_feature-fifth {
-    transform: scale(1);
-    transition: all 300ms ease-in-out 5200ms;
+    opacity: 1;
+    animation: zoom-in .3s ease-in-out 2.5s 1 both;
+}
+@keyframes zoom-in {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    70% {
+      transform: scale(1);
+    }
+    80% {
+      transform: scale(.85);
+    }
+    90% {
+      transform: scale(1);
+    }
+    95% {
+      transform: scale(.93);
+    }
+    100% {
+      opacity: 100%;
+      transform: scale(1);
+    }
 }
 
 .services_feature-icon {
@@ -73,33 +98,4 @@
 }
 .services_feature-discription {
     font-family: "Montserrat-Light";
-}
-/* .advantages {
-    display: flex;
-    justify-content: space-around;
-    height: 218px;
-    align-items: baseline;
-    text-align: center;
-    color: white;
-}
-.advantages_item {
-    z-index: 1;
-}
-.angle {
-    padding-left: 26px;
-}
-.png-one {
-    background-image: url(../images/svg/001-delivery-truck.svg);
-}
-.png-two {
-    background-image: url(../images/svg/003-best.svg);
-}
-.png-three {
-    background-image: url(../images/svg/002-online-shop.svg);
-}
-.png-four {
-    background-image: url(../images/svg/004-like.svg);
-}
-.png-five {
-    background-image: url(../images/svg/005-order.svg);
 }
