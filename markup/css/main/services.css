@@ -21,26 +21,22 @@
     color: #fff;
     text-align: center;
     transform: scale(0);
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-}
-.services_feature-first {
     opacity: 1;
     animation: zoom-in .3s ease-in-out .5s 1 both;
 }
-.services_feature-second {
+.services_feature-1 {
     opacity: 1;
     animation: zoom-in .3s ease-in-out 1s 1 both;
 }
-.services_feature-third {
+.services_feature-2 {
     opacity: 1;
     animation: zoom-in .3s ease-in-out 1.5s 1 both;
 }
-.services_feature-fourth {
+.services_feature-3 {
     opacity: 1;
     animation: zoom-in .3s ease-in-out 2s 1 both;
 }
-.services_feature-fifth {
+.services_feature-4 {
     opacity: 1;
     animation: zoom-in .3s ease-in-out 2.5s 1 both;
 }
