@@ -21,6 +21,10 @@
     color: #fff;
     text-align: center;
     transform: scale(0);
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+}
+.services_feature-0 {
     opacity: 1;
     animation: zoom-in .3s ease-in-out .5s 1 both;
 }
