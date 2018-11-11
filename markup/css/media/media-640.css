@@ -1,0 +1,36 @@
+@media (max-width: 640px) {
+    .products_catalog-content,
+    .products_catalog-range,
+    .newProducts__card-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    header {
+        display: inline-block;
+    }
+    main {
+        display: inline-grid;
+    }
+    .banner {
+        margin: 30px 65px;
+    }
+    .main-content {
+        align-items: center;
+        text-align: center;
+    }
+    .catalog__card-wrapper--tea,
+    .products_catalog-range,
+    .newProducts__card-wrapper--block {
+        width: 75%;
+    }
+    .catalog__card-wrapper--cups,
+    .catalog__card-wrapper--gifts {
+        width: 100%;
+    }
+    .products_catalog-range-gifts {
+        flex: 1;
+    }
+    .newProducts-title {
+        justify-content: center;
+    }
+}

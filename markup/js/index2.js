@@ -1,8 +1,6 @@
 var elShowed = false;
 
 function callback(entry) {
-  console.log(entry);
-
   if (entry.length > 0 && !elShowed) {
     var container = entry[0];
     var items = container.target.children;

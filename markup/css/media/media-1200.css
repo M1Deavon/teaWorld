@@ -1,0 +1,5 @@
+@media (max-width: 1200px) {
+    .products_catalog-content {
+        flex-flow: column wrap;
+    }
+}
