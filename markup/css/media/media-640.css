@@ -1,36 +1,87 @@
 @media (max-width: 640px) {
-    .products_catalog-content,
+    .logo,
+    .subscribe-and-feedback {
+        width: 50%;
+    }
+
+    .subscribe-and-feedback {
+        flex-direction: column;
+    }
+    .feed-back_container {
+        flex-wrap: wrap;
+    }
+    .feed-back_form {
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    .basket {
+        margin-left: 0;
+        width: 45%;
+    }
+    .call-form {
+        margin-left: 0px;
+        width: 45%;
+    }
+    .navigation {
+        flex-wrap: wrap;
+    }
+    .banner {
+        background-size: 100%;
+    }
+    .__extraBold-max,
+    .__semiBold {
+        font-size: 20px;
+    }
+    .main-content {
+        text-shadow: 0 0 10px white;
+    }
+    .catalog__card-wrapper,
     .products_catalog-range,
-    .newProducts__card-wrapper {
+    .catalog__card {
+        width: 100%;
+    }
+    .__position-abs {
+        position: static;
+    }
+    .products_catalog-tea-title-tea-image,
+    .products_catalog-tea-title-range-image,
+    .products_catalog-tea-title-gifts-image,
+    .grade-of-tea {
+        padding: 0;
+    }
+    .products_catalog-tea-button {
+        order: 2;
+    }
+    .products_catalog-tea-title-cups-image {
+        order: 1;
+    }
+    .services {
         flex-direction: column;
         align-items: center;
     }
-    header {
-        display: inline-block;
-    }
-    main {
-        display: inline-grid;
-    }
-    .banner {
-        margin: 30px 65px;
-    }
-    .main-content {
-        align-items: center;
-        text-align: center;
-    }
-    .catalog__card-wrapper--tea,
-    .products_catalog-range,
-    .newProducts__card-wrapper--block {
-        width: 75%;
-    }
-    .catalog__card-wrapper--cups,
-    .catalog__card-wrapper--gifts {
+    .services_feature {
+        transform: none;
+        opacity: 1;
         width: 100%;
     }
-    .products_catalog-range-gifts {
-        flex: 1;
+    .newProducts-title-buttons {
+        display: flex;
     }
     .newProducts-title {
-        justify-content: center;
+        padding-left: 0px;
+        flex-direction: column;
+    }
+    .left-elements {
+        padding-bottom: 10px;
+    }
+    .ring-button--small {
+        width: 70px;
+        height: 70px;
+    }
+    .newProducts__card-wrapper {
+        overflow: hidden;
+    }
+    .newProducts__card-wrapper--block {
+        min-width: 250px;
     }
 }

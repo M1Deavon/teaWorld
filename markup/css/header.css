@@ -6,6 +6,11 @@
 .logo {
     display: inline-block;
 }
+.subscribe-and-feedback {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
 .shop {
     font-family: "Montserrat-Regular";
 }
@@ -55,7 +60,6 @@
 }
 form {
     position: relative;
-    width: 232px;
 }
 /* .input[type="search"] {
     font-family: "Montserrat-Bold";
