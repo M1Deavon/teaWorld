@@ -6,6 +6,11 @@
 .logo {
     display: inline-block;
 }
+.subscribe-and-feedback {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
 .shop {
     font-family: "Montserrat-Regular";
 }
@@ -55,7 +60,6 @@
 }
 form {
     position: relative;
-    width: 232px;
 }
 /* .input[type="search"] {
     font-family: "Montserrat-Bold";
@@ -67,6 +71,7 @@ form {
   input {
     border: 1px solid #b8b4b3;
     padding: 10px 15px;
+    width: 100%;
 }
   button {
     border: none;
@@ -90,6 +95,7 @@ form {
     display: flex;
     border: 1px solid #e8472c;
     padding: 10px 15px;
+    margin-left: 13px;
 }
 .basket p {
     color: #e8472c;
